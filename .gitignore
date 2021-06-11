@@ -1,5 +1,8 @@
 .idea/
 
+# API key
+appid.py
+
 # dotenv
 .env
 

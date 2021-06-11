@@ -1,4 +1,5 @@
 import requests
+from appid import weather_api_key
 from tkinter import *
 from tkinter import messagebox
 
@@ -7,7 +8,7 @@ font_style = ('Montserrat Alternates Regular', 10)
 font_hel = 'Helvetica 12 bold'
 
 
-api_key = "b6ed6621a1ca74982e51281fd1b33f00"
+api_key = weather_api_key
 
 
 def Author():
