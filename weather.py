@@ -11,7 +11,7 @@ font_hel = 'Helvetica 12 bold'
 api_key = weather_api_key
 
 
-def Author():
+def author():
     created = Toplevel()
     created.geometry('300x200')
     created.title('Автор')
@@ -60,7 +60,7 @@ home.resizable(False, False)
 cit = StringVar()
 
 Label(home, text='Погодное приложение', font='Helvetica 12 bold').place(x=100, y=6)
-Button(home, text='Автор', font=font_style, command=Author, background="#555", foreground="#fff").place(x=320, y=6)
+Button(home, text='Автор', font=font_style, command=author, background="#555", foreground="#fff").place(x=320, y=6)
 Label(home, text='Введите город:', font=font_style).place(x=5, y=70)
 Entry(home, width=20, textvariable=cit).place(x=150, y=70)
 Button(home, text='Узнать', font=font_style, command=proceed, background="#555", foreground="#fff").place(x=320, y=70)
